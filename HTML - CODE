@@ -1,0 +1,44 @@
+<!-- index.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="CS.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Online Reservation System</title>
+</head>
+<body>
+    <script type="text/javascript" src="JS.js"></script>
+  <div class="login-container">
+    <h2>Login</h2>
+    <form id="loginForm">
+      <label for="username">Username:</label>
+      <input type="text" id="username" required>
+      <label for="password">Password:</label>
+      <input type="password" id="password" required>
+      <button type="button" onclick="login()">Login</button>
+    </form>
+  </div>
+
+  <div class="reservation-container">
+    <h2>Reservation System</h2>
+    <form id="reservationForm">
+      <!-- Reservation form fields go here -->
+      <button type="button" onclick="makeReservation()">Insert</button>
+    </form>
+  </div>
+
+  <div class="cancellation-container">
+    <h2>Cancellation Form</h2>
+    <form id="cancellationForm">
+      <label for="pnr">Enter PNR Number:</label>
+      <input type="text" id="pnr" required>
+      <button type="button" onclick="cancelReservation()">OK</button>
+    </form>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
