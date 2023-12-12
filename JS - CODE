@@ -1,0 +1,16 @@
+// script.js
+
+function login() {
+    // Implement login logic here
+    alert("Login button clicked");
+  }
+  
+  function makeReservation() {
+    // Implement reservation logic here
+    alert("Reservation button clicked");
+  }
+  
+  function cancelReservation() {
+    // Implement cancellation logic here
+    alert("Cancel button clicked");
+  }
